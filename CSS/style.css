@@ -6,9 +6,35 @@ body{
 }
 
 /* Banner Section */
-.slider{
+.slider_one{
     background-image: url(../Images/banner.png);
-    background-color: rgba(0, 0, 0, 0.438);
+    background-color: rgba(0, 0, 0, 0.589);
+    background-blend-mode: overlay;
+    background-size: cover;
+    height: 94vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.slider_two{
+    background-image: url(../Images/banner3.jpg);
+    background-color: rgba(0, 0, 0, 0.623);
+    background-blend-mode: overlay;
+    background-size: cover;
+    height: 94vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.slider_three{ 
+    background-image: url(../Images/banner2.jpg);
+    background-color: rgba(0, 0, 0, 0.602);
     background-blend-mode: overlay;
     background-size: cover;
     height: 94vh;
@@ -21,6 +47,10 @@ body{
 }
 
 /* Package Section */
+.toast{
+    position: relative;
+    left: 1%;
+}
 .unique_card{
     background-color: #3F87F5;
 }
