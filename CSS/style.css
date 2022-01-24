@@ -1,1 +1,20 @@
 /* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Banner Section */
+.slider{
+    background-image: url(../Images/banner.png);
+    background-color: rgba(0, 0, 0, 0.438);
+    background-blend-mode: overlay;
+    background-size: cover;
+    height: 90vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
