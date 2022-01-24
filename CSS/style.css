@@ -18,3 +18,18 @@ body{
     justify-content: center;
     flex-direction: column;
 }
+
+.check{
+    margin-right: 6px;
+    color: #5243C2;
+    /* background-color: #5243c2b6; */
+    border-radius: 50%;
+}
+.package_btn{
+    background-color: #f496d277;
+    color: #3F87F5;
+}
+
+.card-body li{
+    margin-bottom: 6px;
+}
