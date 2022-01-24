@@ -13,6 +13,7 @@ body{
     background-size: cover;
     height: 90vh;
     background-repeat: no-repeat;
+    background-position: center center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,15 +22,49 @@ body{
 
 .check{
     margin-right: 6px;
-    color: #5243C2;
+    color: #3F87F5;
     /* background-color: #5243c2b6; */
     border-radius: 50%;
 }
 .package_btn{
-    background-color: #f496d277;
+    background-color: #f1b4db4d;
     color: #3F87F5;
 }
 
 .card-body li{
     margin-bottom: 6px;
+}
+
+
+/* Responsive Design */
+@media (max-width:1050px){
+    .slider h2{
+        font-size: 35px;
+    }
+    .slider p{
+        font-size: 17px;
+    }
+    .slider > div{
+        width: 80% !important;
+    }
+}
+@media (max-width:755px){
+    .footer_app{
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        flex-direction: row;
+    }
+    .app{
+        display: flex;
+        flex-direction: column;
+    }
+    .app a{
+        margin-top: 5px;
+    }
+}
+@media (max-width:353px){
+    .style_media{
+        margin-top: 6px;
+    }
 }
