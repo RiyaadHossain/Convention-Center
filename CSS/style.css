@@ -11,7 +11,7 @@ body{
     background-color: rgba(0, 0, 0, 0.438);
     background-blend-mode: overlay;
     background-size: cover;
-    height: 90vh;
+    height: 94vh;
     background-repeat: no-repeat;
     background-position: center center;
     display: flex;
@@ -20,11 +20,30 @@ body{
     flex-direction: column;
 }
 
+/* Package Section */
+.unique_card{
+    background-color: #3F87F5;
+}
 .check{
     margin-right: 6px;
     color: #3F87F5;
     /* background-color: #5243c2b6; */
     border-radius: 50%;
+}
+.diff_check{
+    margin-right: 6px;
+    color: #fefeff;
+    /* background-color: #5243c2b6; */
+    border-radius: 50%; 
+}
+.card-body>a.customize:hover{
+    color: blue !important;
+}
+.badge{
+    position: relative;
+    z-index: 10;
+    top: 5%;
+    left: 89%;
 }
 .package_btn{
     background-color: #f1b4db4d;
